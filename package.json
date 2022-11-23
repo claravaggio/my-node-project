@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/claravaggio/my-node-project/issues"
   },
-  "homepage": "https://github.com/claravaggio/my-node-project#readme"
+  "homepage": "https://github.com/claravaggio/my-node-project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
