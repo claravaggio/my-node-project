@@ -1,0 +1,20 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "simple node project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claravaggio/my-node-project.git"
+  },
+  "author": "Clara Di Bella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claravaggio/my-node-project/issues"
+  },
+  "homepage": "https://github.com/claravaggio/my-node-project#readme"
+}
