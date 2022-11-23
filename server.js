@@ -22,4 +22,12 @@ io.on("connection", newConnection);
  //the variable newSocket will contain the information that is coming from the client, usually his id
 function newConnection(newSocket) {
     console.log(newSocket.id);
+
+    newSocket.on("mouse", mouseReceived);
+
+    function mouseReceived(dataReceived) {
+        console.log(dataReceived);
+        //this instruction returns the data to the clients
+        newSocket.broadcast.emit("mouseBroadcast", dataReceived);
+    }
 }
